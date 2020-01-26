@@ -222,10 +222,10 @@ int main( void )
 
         // Try the various ways of summing it.
         runner( "sim", p, SIZE, sum_simple );
-        runner( "rec", p, SIZE, sum_recursive );
-        runner( "hyb", p, SIZE, sum_hybrid );
+        //runner( "rec", p, SIZE, sum_recursive );
+        //runner( "hyb", p, SIZE, sum_hybrid );
         runner( "par", p, SIZE, sum_parallel );
-        runner( "dyn", p, SIZE, sum_dynamic );
+        //runner( "dyn", p, SIZE, sum_dynamic );
         free( p );
     }
         
