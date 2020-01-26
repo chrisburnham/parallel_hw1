@@ -2,7 +2,7 @@
 # Makefile for the CIS-4230 Sum project.
 #
 
-SPICA=../../../Projects/Spica/C
+SPICA=../Projects/spica/C
 CC=gcc
 CFLAGS=-c -Wall -pthread -O2 -std=c99 -I$(SPICA)
 LD=gcc
