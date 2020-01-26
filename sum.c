@@ -12,8 +12,8 @@
 
 #include "Timer.h"
 
-#define SIZE       10000000  // The size of the array to sum.
-#define ITERATIONS 1000        // The number of times we'll do the summation for timing purposes.
+#define SIZE       100000000  // The size of the array to sum.
+#define ITERATIONS 100        // The number of times we'll do the summation for timing purposes.
 
 // -----------
 // Serial Sums
